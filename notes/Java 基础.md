@@ -800,7 +800,7 @@ ToStringExample@4554617c
 
 **1. cloneable**  
 
-clone() 是 Object 的 protected 方法，它不是 public，一个类不显式去重写 clone()，其它类就不能直接去调用该类实例的 clone() 方法。
+clone() 是 Object 的 native 方法，它不是 public，一个类不显式去重写 clone()，其它类就不能直接去调用该类实例的 clone() 方法。
 
 ```java
 public class CloneExample {
